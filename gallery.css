@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
+body {
+  background-color: black;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
@@ -20,9 +22,7 @@ a {
 }
 
 .header {
-  border-bottom: 1px solid #e2e8f0;
   background: black;
-  color: #e2e8f0;
 }
 
 .navbar {
@@ -30,7 +30,6 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
-  color: white;
 }
 
 .hamburger {
@@ -44,7 +43,7 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: white;
+  background: white;
 }
 
 .nav-menu {
@@ -56,31 +55,27 @@ a {
 .nav-item {
   margin-left: 5rem;
 }
-.active {
+#active {
   color: #942e2e !important;
-  font-size: 1.6rem;
+  font-size: 20px;
   text-decoration: none;
   font-weight: 400;
 }
 .nav-link {
-  font-size: 1.6rem;
+  font-size: 20px;
+  text-decoration: none;
   font-weight: 400;
-  color: white;
 }
-
-.nav-link:hover {
-  color: #942e2e;
-}
-
 .nav-logo {
   font-size: 2.1rem;
   font-weight: 500;
   text-decoration: none;
   color: #fff;
+  transition: 1s cubic-bezier(0.25, 0.9, 0.25, 2.1);
 }
 .nav-logo:hover {
   letter-spacing: 5px;
-  color: antiquewhite;
+  color: #942e2e;
 }
 @media only screen and (max-width: 768px) {
   .nav-menu {
@@ -122,4 +117,49 @@ a {
     -webkit-transform: translateY(-8px) rotate(-45deg);
     transform: translateY(-8px) rotate(-45deg);
   }
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container > div {
+  background-color: DodgerBlue;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
