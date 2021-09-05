@@ -148,6 +148,10 @@ a {
   height: 600px;
   max-width: 700px;
 }
+.card:hover {
+  opacity: 0.7;
+}
+
 .close {
   position: absolute;
   top: 15px;
@@ -159,7 +163,7 @@ a {
 }
 .close:hover,
 .close:focus {
-  color: rgb(255, 0, 0);
+  color: #5a2424;
   cursor: pointer;
 }
 @media only screen and (max-width: 700px) {
