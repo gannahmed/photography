@@ -204,15 +204,16 @@ a {
   }
 }
 
-.roundx a {
+/* .roundx a {
   text-decoration: none;
   display: inline-block;
-  font-size: 15px;
+  font-size: 25px;
   margin-bottom: 20px;
-  margin-left: 400px;
+  padding-left: 450px;
 }
 .roundx a:hover {
-  color: black;
+  color: #efefef;
+  opacity: 0.6;
 }
 .previous {
   color: white;
@@ -220,4 +221,8 @@ a {
 
 .next {
   color: white;
+} */
+
+#more {
+  display: none;
 }
