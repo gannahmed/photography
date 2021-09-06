@@ -204,25 +204,14 @@ a {
   }
 }
 
-/* .roundx a {
-  text-decoration: none;
-  display: inline-block;
+.roundx a {
   font-size: 25px;
-  margin-bottom: 20px;
-  padding-left: 450px;
+  margin-bottom: 35px;
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 310px;
+  color: rgb(153, 144, 144);
 }
 .roundx a:hover {
-  color: #efefef;
-  opacity: 0.6;
-}
-.previous {
   color: white;
-}
-
-.next {
-  color: white;
-} */
-
-#more {
-  display: none;
 }
