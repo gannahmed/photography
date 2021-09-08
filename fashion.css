@@ -170,11 +170,35 @@ a {
     width: 100%;
   }
 }
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
 footer {
   width: 100%;
-  text-align: center;
-  background: #333;
-  font-size: 15px;
-  padding: 30px 0;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  margin-top: 60px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  display: inline;
   color: #fff;
+}
+.icons {
+  margin-left: 1150px;
+  justify-content: space-between;
+  color: white;
+}
+.icon1 {
+  padding-right: 10px;
+  color: white;
+}
+.icon2 {
+  padding-right: 10px;
+  color: white;
+}
+.icon3 {
+  padding-right: 10px;
+  color: white;
+}
+.icon4 {
+  padding-right: 10px;
+  color: white;
 }

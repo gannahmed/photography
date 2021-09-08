@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
 li {
   list-style: none;
 }
@@ -7,11 +15,8 @@ li {
 a {
   text-decoration: none;
 }
-
 .header {
   background: black;
-  /* position: fixed; */
-  /* width: 1200px; */
 }
 
 .navbar {
@@ -54,12 +59,13 @@ a {
   font-size: 20px;
   text-decoration: none;
   font-weight: 400;
+  color: white;
 }
 .nav-link:hover {
   color: #942e2e;
 }
 .nav-logo {
-  font-size: 2.1rem;
+  font-size: 30px;
   font-weight: 500;
   text-decoration: none;
   color: #fff;
@@ -71,12 +77,12 @@ a {
 }
 @media only screen and (max-width: 768px) {
   .nav-menu {
+    z-index: 1;
+    background-color: black;
     position: fixed;
     left: -100%;
     top: 5rem;
     flex-direction: column;
-    z-index: 1;
-    background-color: black;
     width: 100%;
     border-radius: 10px;
     text-align: center;
@@ -111,6 +117,7 @@ a {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
 .card {
   width: 20rem;
   margin: 2rem;
@@ -172,10 +179,35 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   margin-top: 20px;
 }
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
 footer {
   width: 100%;
-  text-align: center;
-  background: #333;
-  padding: 30px 0;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  display: inline;
   color: #fff;
+}
+.icons {
+  margin-left: 1150px;
+  justify-content: space-between;
+  color: white;
+}
+.icon1 {
+  padding-right: 10px;
+  color: white;
+}
+.icon2 {
+  padding-right: 10px;
+  color: white;
+}
+.icon3 {
+  padding-right: 10px;
+  color: white;
+}
+.icon4 {
+  padding-right: 10px;
+  color: white;
 }
