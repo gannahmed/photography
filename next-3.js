@@ -18,9 +18,9 @@ function closeMenu() {
 ////////// Modal Images /////////
 var modal = document.getElementById('myModal');
 
-var img= [document.getElementById('myImg1'), document.getElementById('myImg2'), document.getElementById('myImg3'), document.getElementById('myImg4'),document.getElementById('myImg5'),document.getElementById('myImg6'),document.getElementById('myImg7'),document.getElementById('myImg8'),document.getElementById('myImg9'),document.getElementById('myImg10')];
+var img= [document.getElementById('myImg1'), document.getElementById('myImg2'), document.getElementById('myImg3'), document.getElementById('myImg4'),document.getElementById('myImg5'),document.getElementById('myImg6'),document.getElementById('myImg7'),document.getElementById('myImg8'),document.getElementById('myImg9'),document.getElementById('myImg10'),document.getElementById('myImg11'),document.getElementById('myImg12'),document.getElementById('myImg13')];
 var modalImg = document.getElementById('img01');
-for( var i=0; i<10; i++){
+for( var i=0; i<13; i++){
     img[i].onclick = function (){
         modal.style.display = "block";
         modalImg.src = this.src;
